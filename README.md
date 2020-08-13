@@ -46,8 +46,9 @@ or a model configured.
 
 ### Associations
 
-- Associate the `Actor` model with the `Character` and `Show` model. An actor
+- [x]Associate the `Actor` model with the `Character` and `Show` model. An actor
   should have many characters and many shows through characters.
+
 - Write a method in the `Actor` class, `#full_name`, that returns the first and
   last name of an actor.
 - Write a method in the `Actor` class, `#list_roles`, that lists all of the
@@ -70,7 +71,7 @@ or a model configured.
     ```ruby
     ['Tyrion Lannister - Game of Thrones']
     ```
-
+  <!-- =================================================================== -->
 - Define a method in the `Character` class, `#say_that_thing_you_say`, using a
   given character's catchphrase. Using Tyrion as an example again, the returned
   string should look like the following:
