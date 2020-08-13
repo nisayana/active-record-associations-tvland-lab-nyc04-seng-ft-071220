@@ -71,7 +71,7 @@ or a model configured.
     ```ruby
     ['Tyrion Lannister - Game of Thrones']
     ```
-  <!-- =================================================================== -->
+ 
 - Define a method in the `Character` class, `#say_that_thing_you_say`, using a
   given character's catchphrase. Using Tyrion as an example again, the returned
   string should look like the following:
@@ -81,7 +81,8 @@ or a model configured.
     tyrion.say_that_thing_you_say
     #=> 'Tyrion Lannister always says: A Lannister always pays his debts'
     ```
-
+ <!-- =================================================================== -->
+ 
 - Define a method in the `Show` class called `#actors_list` that returns an
   Array of the full names of each actor associated with the a show. Remember,
   a show should have many actors through characters.
